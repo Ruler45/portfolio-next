@@ -1,32 +1,25 @@
-import { BackgroundLines } from "@/components/background-lines";
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/ui/modeToggle";
+// import { BackgroundLines } from "@/components/ui/background-lines";
+// import { Button } from "@/components/ui/button";
+// import { ModeToggle } from "@/components/ui/modeToggle";
 import Image from "next/image";
+import Navbar from "./components/Navbar";
+import { TimelineDemo } from "./components/TimelineDemo";
+import WorkWithMe from "./components/WorkWith";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
     <div className="flex flex-col  items-center justify-items-center min-h-screen pb-4  gap-4 sm:p-2 font-[family-name:var(--font-geist-sans)] ">
-      <nav>
-        <ModeToggle />
-      </nav>
-      <main className="flex flex-col gap-8 items-center justify-items-center w-full ">
-        <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 relative">
-          <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-            Next.js 15 Template, <br /> by Sahin Alam.
-          </h2>
-          <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-            Say bye bye to long integrations and configurations with Next.js 15
-            Template that has TypeScript,ShadCn Ui,Acertinity, SASS and
-            Tailwind.
-          </p>
-        </BackgroundLines>
-        <a
-          href="https://github.com/Ruler45/Next.js-15-SA_47.git"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button>Fork from Github</Button>
-        </a>
+      <Navbar />
+      <main className="flex flex-col gap-8 items-center justify-items-center w-full my-10">
+        <Hero />
+        <TimelineDemo />
+        <Skills />
+        <Projects />
+        <WorkWithMe />
+        <div className=" h-[100vh]"></div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
