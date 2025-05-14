@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
+import { addDynamicIconSelectors } from "@iconify/tailwind";
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
 export default {
@@ -60,7 +61,7 @@ export default {
       },
     },
   },
-  plugins: [animate, addVariablesForColors],
+  plugins: [animate, addVariablesForColors, addDynamicIconSelectors()],
 } satisfies Config;
 
 function addVariablesForColors({ addBase, theme }: any) {

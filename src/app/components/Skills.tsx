@@ -1,175 +1,147 @@
 import { WobbleCard } from "@/components/ui/wobble-card";
 import Heading from "./Heading";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { TbBrandCss3 } from "react-icons/tb";
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { RiTailwindCssLine, RiNextjsFill, RiSvelteLine } from "react-icons/ri";
-// import { RiNextjsFill } from "react-icons/ri";
 
 const skills = [
   {
-    title: "Frontend",
+    title: "Languages",
     skills: [
       {
         name: "HTML",
-        icon: <AiOutlineHtml5 />,
+        icon: "icon-[vscode-icons--file-type-html]",
         color: "text-orange-500",
         borderColor: "border-orange-400",
       },
       {
         name: "CSS",
-        icon: <TbBrandCss3 />,
+        icon: "icon-[devicon--css3]",
         color: "text-blue-500",
         borderColor: "border-blue-400",
       },
+
+      {
+        name: "Java",
+        icon: "icon-[devicon--java]",
+        color: "text-red-500",
+        borderColor: "border-blue-500",
+      },
+      {
+        name: "Python",
+        icon: "icon-[devicon--python]",
+        color: "text-blue-500",
+        borderColor: "border-yellow-400",
+      },
       {
         name: "JavaScript",
-        icon: <IoLogoJavascript />,
+        icon: "icon-[devicon--javascript]",
         color: "text-yellow-500",
         borderColor: "border-yellow-400",
       },
       {
+        name: "TypeScript",
+        icon: "icon-[devicon--typescript]",
+        color: "",
+        borderColor: "border-blue-500",
+      },
+      {
+        name: "SQL",
+        icon: "icon-[oui--vis-query-sql]",
+        color: "text-amber-500",
+        borderColor: "border-cyan-400",
+      },
+    ],
+  },
+  {
+    title: "Libraries & Frameworks",
+    skills: [
+      {
         name: "Tailwind CSS",
-        icon: <RiTailwindCssLine />,
+        icon: "icon-[skill-icons--tailwindcss-dark]",
         color: "text-cyan-500",
         borderColor: "border-cyan-400",
       },
+
+      {
+        name: "Sass",
+        icon: "icon-[logos--sass]",
+        color: "text-pink-500",
+        borderColor: "border-pink-400",
+      },
       {
         name: "Next.js",
-        icon: <RiNextjsFill />,
+        icon: "icon-[devicon--nextjs]",
         color: "",
         borderColor: "border-white",
       },
       {
         name: "Svelte",
-        icon: <RiSvelteLine />,
+        icon: "icon-[logos--svelte-icon]",
         color: "text-red-500",
         borderColor: "border-red-400",
       },
       {
         name: "React",
-        icon: <FaReact />,
+        icon: "icon-[logos--react]",
         color: "text-cyan-500",
         borderColor: "border-cyan-400",
+      },
+      {
+        name: "Node.js",
+        icon: "icon-[skill-icons--nodejs-dark]",
+        color: "text-green-500",
+        borderColor: "border-green-400",
+      },
+      {
+        name: "Express.js",
+        icon: "icon-[skill-icons--expressjs-dark]",
+        color: "text-gray-300",
+        borderColor: "border-gray-400",
+      },
+      {
+        name: "ShadCn",
+        icon: "icon-[simple-icons--shadcnui]",
+        color: "text-blue-500",
+        borderColor: "border-gray-400",
+      },
+      {
+        name: "Puppeteer",
+        icon: "icon-[logos--puppeteer]",
+        color: "text-green-500",
+        borderColor: "border-teal-800",
       },
     ],
   },
   {
-    title: "Backend",
+    title: "Tools & Databases",
     skills: [
       {
-        name: "React",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "MongoDb",
+        icon: "icon-[skill-icons--mongodb]",
+        color: "text-emerald-800",
+        borderColor: "border-emerald-950",
       },
       {
-        name: "Next.js",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "MySQL",
+        icon: "icon-[logos--mysql]",
+        color: "text-amber-500",
+        borderColor: "border-sky-500",
       },
       {
-        name: "Gatsby",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Git",
+        icon: "icon-[devicon--git]",
+        color: "text-gray-500",
+        borderColor: "border-red-500",
       },
       {
-        name: "Tailwind CSS",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "GitHub",
+        icon: "icon-[skill-icons--github-light]",
+        color: "text-gray-500",
+        borderColor: "border-gray-400",
       },
       {
-        name: "Styled Components",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Chakra UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Material UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Redux",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "GraphQL",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-    ],
-  },
-  {
-    title: "Scripting",
-    skills: [
-      {
-        name: "React",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Next.js",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Gatsby",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Styled Components",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Chakra UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Material UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Redux",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "GraphQL",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Bash Scripting",
+        icon: "icon-[logos--bash-icon]",
+        color: "text-ehite",
+        borderColor: "border-emerald-700",
       },
     ],
   },
@@ -177,65 +149,47 @@ const skills = [
     title: "Cloud & DevOps",
     skills: [
       {
-        name: "React",
-        icon: <FaReact />,
-        color: "text-red-500",
-        borderColor: "border-red-400",
+        name: "AWS",
+        icon: "icon-[skill-icons--aws-dark]",
+        color: "text-yello-700",
+        borderColor: "border-teal-800",
       },
       {
-        name: "Next.js",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Docker",
+        icon: "icon-[vscode-icons--file-type-docker2]",
+        color: "",
+        borderColor: "border-sky-500",
       },
       {
-        name: "Gatsby",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Vercel",
+        icon: "icon-[skill-icons--vercel-light]",
+        color: "",
+        borderColor: "border-black",
       },
       {
-        name: "Tailwind CSS",
-        icon: <FaReact />,
+        name: "Netlify",
+        icon: "icon-[vscode-icons--file-type-light-netlify]",
         color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        borderColor: "border-emerald-700",
       },
       {
-        name: "Styled Components",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Cloudflare",
+        icon: "icon-[devicon--cloudflare]",
+        color: "text-amber-500",
+        borderColor: "border-yellow-400",
       },
       {
-        name: "Chakra UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Material UI",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "Redux",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
-      },
-      {
-        name: "GraphQL",
-        icon: <FaReact />,
-        color: "text-cyan-500",
-        borderColor: "border-cyan-400",
+        name: "Linux",
+        icon: "icon-[devicon--linux]",
+        color: "text-yellow-500",
+        borderColor: "border-gray-400",
       },
     ],
   },
 ];
 const Skills = () => {
   return (
-    <div className="w-full" id="skills">
+    <div className="w-full my-8" id="skills">
       <Heading heading="My Skills" />
       <div className="flex flex-wrap items-center justify-center w-full gap-8 py-4 px-10">
         {skills.map((skill) => {
@@ -243,7 +197,7 @@ const Skills = () => {
             <WobbleCard
               key={skill.title}
               containerClassName="w-fill md:w-1/2 lg:w-[30%]  bg-[#0f172a]"
-              className="flex flex-col items-center gap-4 bg-[#0f172a]"
+              className="flex flex-col items-center gap-4 dark:bg-[#0f172a] bg-gray-100 border"
             >
               <h3>{skill.title}</h3>
               <div className="flex flex-wrap gap-2 py-2 px-4 justify-center items-center">
@@ -253,7 +207,8 @@ const Skills = () => {
                       key={skill.name}
                       className={`border-2 py-1 px-2 rounded-sm ${skill.borderColor} ${skill.color} flex items-center gap-1 hover:scale-105 cursor-pointer `}
                     >
-                      {skill.icon}
+                      {/* {skill.icon} */}
+                      <span className={skill.icon}></span>
                       {skill.name}
                     </span>
                   );

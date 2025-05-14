@@ -4,14 +4,10 @@ import Heading from "./Heading";
 
 const data = [
   {
-    title: "Collaborative Editing",
+    title: "Linkedfy",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
-      </div>
-    ),
+      "Effortlessly connect with professionals and send personalized messages on LinkedIn through the command-line. Check this out on GitHub and npmjs.Don't forget to contribute to the open source project. Let's make Linkedfy better together!",
+    content: <div></div>,
   },
   {
     title: "Real time changes",

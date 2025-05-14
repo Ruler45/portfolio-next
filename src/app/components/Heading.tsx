@@ -2,7 +2,7 @@ import { SparklesCore } from "@/components/ui/sparkle";
 
 const Heading = ({ heading = "Heading" }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full mb-4">
+    <div className="flex flex-col items-center justify-center w-full mb-b mt-8">
       <h2 className="text-xl text-center md:text-6xl  text-black dark:text-white">
         {heading}
       </h2>

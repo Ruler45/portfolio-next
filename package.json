@@ -11,6 +11,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.292",
     "@radix-ui/react-dropdown-menu": "^2.1.4",
     "@radix-ui/react-slot": "^1.1.1",
     "@tsparticles/engine": "^3.7.1",
@@ -33,6 +34,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@iconify-icon/react": "^2.3.0",
+    "@iconify/tailwind": "^1.2.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

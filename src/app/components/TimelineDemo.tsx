@@ -56,10 +56,10 @@ export function TimelineDemo() {
           <div className="flex flex-wrap gap-4">
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1678341163/Ecell%20website/ecell-logo-bw2_sayvqp.webp"
                 alt="hero template"
                 fill
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full bg-sky-950"
               />
             </div>
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
@@ -84,7 +84,7 @@ export function TimelineDemo() {
           </p>
           <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4l">
             <li>
-              ✅ Joined Incand&#39;23 &#39;s Technical team and helped in
+              ✅ Joined Incand&#39;24 &#39;s Technical team and helped in
               building the event website. Was appointed as the team lead,
               responsible for leading the team and ensuring the website was
               built on time and maintain the flow of information between
@@ -99,7 +99,7 @@ export function TimelineDemo() {
           <div className="flex flex-wrap gap-4">
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src="/images/incand24.png"
                 alt="hero template"
                 fill
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -107,15 +107,7 @@ export function TimelineDemo() {
             </div>
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
-                alt="hero template"
-                fill
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-            <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56 w-[44%]">
-              <Image
-                src="https://assets.aceternity.com/pro/bento-grids.png"
+                src="/images/incand24-1.jpg"
                 alt="hero template"
                 fill
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -152,32 +144,6 @@ export function TimelineDemo() {
               take away were the friends made and times enjoyed.
             </li>
           </ul>
-          <div className="flex flex-wrap gap-4">
-            <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
-              <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
-                alt="hero template"
-                fill
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-            <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
-              <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
-                alt="hero template"
-                fill
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-            <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56 w-[44%]">
-              <Image
-                src="https://assets.aceternity.com/pro/bento-grids.png"
-                alt="hero template"
-                fill
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-          </div>
         </div>
       ),
     },
@@ -192,7 +158,7 @@ export function TimelineDemo() {
           <div className="flex flex-wrap gap-4">
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src="/images/nits1.png"
                 alt="hero template"
                 fill
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -200,7 +166,7 @@ export function TimelineDemo() {
             </div>
             <div className="relative min-h-44 md:min-h-52 lg:min-h-56   h-auto max-w-[30vw] min-w-56  w-[44%]">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src="/images/nits2.png"
                 alt="hero template"
                 fill
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
