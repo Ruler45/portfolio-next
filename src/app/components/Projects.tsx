@@ -6,39 +6,72 @@ const data = [
   {
     title: "Linkedfy",
     description:
-      "Effortlessly connect with professionals and send personalized messages on LinkedIn through the command-line. Check this out on GitHub and npmjs.Don't forget to contribute to the open source project. Let's make Linkedfy better together!",
-    content: <div></div>,
-  },
-  {
-    title: "Real time changes",
-    description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "A powerful CLI tool that revolutionizes LinkedIn automation. Built with Node.js, it enables users to effortlessly connect with professionals and send personalized messages through the command line. Available on npm and open source on GitHub, making professional networking more efficient and accessible.",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full flex items-center justify-center">
         <Image
-          src="/linear.webp"
-          width={300}
+          src="/linkedfy.png"
+          width={500}
           height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
+          className="h-full w-full object-cover rounded-lg"
+          alt="Linkedfy CLI Tool"
         />
       </div>
     ),
   },
   {
-    title: "Version control",
+    title: "E-Cell NITS Website",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Led the development of the official website for the Entrepreneurship Cell at NIT Silchar. Built with JavaScript and modern web technologies, this platform serves as a hub for entrepreneurial activities and events at the institute.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+      <div className="h-full w-full flex items-center justify-center">
+        <Image
+          src="/ecell.png"
+          width={500}
+          height={300}
+          className="h-full w-full object-cover rounded-lg"
+          alt="E-Cell NITS Website"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Incand 2024 Frontend",
+    description:
+      "Developed the frontend for Incand 2024, the official event platform. Created an engaging and responsive user interface using modern JavaScript frameworks to showcase and manage event details, registrations, and schedules.",
+    content: (
+      <div className="h-full w-full flex items-center justify-center">
+        <Image
+          src="/incand.png"
+          width={500}
+          height={300}
+          className="h-full w-full object-cover rounded-lg"
+          alt="Incand 2024 Frontend"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Nanolink",
+    description:
+      "Contributed to the development of Nanolink, a URL shortening service built with TypeScript. This project demonstrates my expertise in building efficient web applications with modern tech stacks and best practices.",
+    content: (
+      <div className="h-full w-full flex items-center justify-center">
+        <Image
+          src="/nanolink.png"
+          width={500}
+          height={300}
+          className="h-full w-full object-cover rounded-lg"
+          alt="Nanolink Project"
+        />
       </div>
     ),
   },
 ];
+
 const Projects = () => {
   return (
-    <div className="p-10 " id="projects">
+    <div className="p-10" id="projects">
       <Heading heading="Projects" />
       <StickyScroll content={data} />
     </div>

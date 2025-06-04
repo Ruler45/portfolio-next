@@ -1,7 +1,7 @@
 // import { BackgroundLines } from "@/components/ui/background-lines";
 // import { Button } from "@/components/ui/button";
 // import { ModeToggle } from "@/components/ui/modeToggle";
-import Image from "next/image";
+// import Image from "next/image";
 import Navbar from "./components/Navbar";
 import { TimelineDemo } from "./components/TimelineDemo";
 import WorkWithMe from "./components/WorkWith";
@@ -19,25 +19,8 @@ export default function Home() {
         <Skills />
         <Projects />
         <WorkWithMe />
-        <div className=" h-[100vh]"></div>
+        {/* <div className=" h-[100vh]"></div> */}
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/ruler45"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Visit my Github →
-        </a>
-      </footer>
     </div>
   );
 }
