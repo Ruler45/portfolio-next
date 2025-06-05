@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: "Portfolio Contact Form <onboarding@resend.dev>", // Update this with your verified domain
       to: process.env.CONTACT_EMAIL!, // The email where you want to receive contact form submissions
-      reply_to: email,
+      //   reply_to: email,
       subject: `New Contact Form Submission: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>
