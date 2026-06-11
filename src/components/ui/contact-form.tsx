@@ -57,7 +57,6 @@ export function ContactForm() {
       toast.success("Message received. I&apos;ll review it when I can.");
       form.reset();
     } catch (error) {
-      console.error(error);
       toast.error("Ugh. Message failed. Try again or use carrier pigeon.");
     } finally {
       setIsSubmitting(false);

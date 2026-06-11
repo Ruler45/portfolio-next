@@ -7,7 +7,7 @@ const __dirname = dirname(__filename);
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
-  ignores: ["node_modules", ".next", ".husky", "public/*", ".github"],
+  ignores: ["node_modules", ".next/", ".husky", "public/*", ".github"],
 });
 
 const eslintConfig = [

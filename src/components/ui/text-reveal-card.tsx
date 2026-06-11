@@ -148,29 +148,46 @@ export const TextRevealCardDescription = ({
 };
 
 const Stars = () => {
-  const randomMove = () => Math.random() * 4 - 2;
-  const randomOpacity = () => Math.random();
-  const random = () => Math.random();
+  const [stars, setStars] = React.useState<
+    { top: string; left: string; opacity: number; duration: number; move: number }[]
+  >([]);
+
+  React.useEffect(() => {
+    const randomMove = () => Math.random() * 4 - 2;
+    const randomOpacity = () => Math.random();
+    const random = () => Math.random();
+    const items = [...Array(80)].map(() => ({
+      top: `${random() * 100}%`,
+      left: `${random() * 100}%`,
+      opacity: randomOpacity(),
+      duration: random() * 10 + 20,
+      move: randomMove(),
+    }));
+    setStars(items);
+  }, []);
+
+  if (stars.length === 0) return null;
+
   return (
     <div className="absolute inset-0">
-      {[...Array(80)].map((_, i) => (
+      {stars.map((s, i) => (
         <motion.span
           key={`star-${i}`}
           animate={{
-            top: `calc(${random() * 100}% + ${randomMove()}px)`,
-            left: `calc(${random() * 100}% + ${randomMove()}px)`,
-            opacity: randomOpacity(),
+            top: `calc(${s.top} + ${s.move}px)`,
+            left: `calc(${s.left} + ${s.move}px)`,
+            opacity: s.opacity,
             scale: [1, 1.2, 0],
           }}
           transition={{
-            duration: random() * 10 + 20,
+            duration: s.duration,
             repeat: Infinity,
             ease: "linear",
           }}
           style={{
             position: "absolute",
-            top: `${random() * 100}%`,
-            left: `${random() * 100}%`,
+            top: s.top,
+            left: s.left,
             width: `2px`,
             height: `2px`,
             backgroundColor: "white",
@@ -178,7 +195,7 @@ const Stars = () => {
             zIndex: 1,
           }}
           className="inline-block"
-        ></motion.span>
+        />
       ))}
     </div>
   );
