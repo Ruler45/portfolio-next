@@ -54,11 +54,11 @@ export function ContactForm() {
         throw new Error("Failed to send message");
       }
 
-      toast.success("Message sent successfully!");
+      toast.success("Message received. I&apos;ll review it when I can.");
       form.reset();
     } catch (error) {
       console.error(error);
-      toast.error("Failed to send message. Please try again.");
+      toast.error("Ugh. Message failed. Try again or use carrier pigeon.");
     } finally {
       setIsSubmitting(false);
     }
@@ -124,7 +124,7 @@ export function ContactForm() {
           )}
         />
         <Button type="submit" className="w-full" disabled={isSubmitting}>
-          {isSubmitting ? "Sending..." : "Send Message"}
+          {isSubmitting ? "Sending..." : "Send (Make it good)"}
         </Button>
       </form>
     </Form>

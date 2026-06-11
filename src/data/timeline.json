@@ -1,0 +1,68 @@
+[
+  {
+    "title": "2026 : Graduation",
+    "text": "Graduated from the National Institute of Technology Silchar. Finished my degree and wrapped up campus projects and coursework.",
+    "images": []
+  },
+  {
+    "title": "Early 2026 : Tecnoesis",
+    "text": "Conducted Tecnoesis, one of the largest tech fests in North East India, coordinating technical events and logistics.",
+    "images": []
+  },
+  {
+    "title": "2026 : Projects",
+    "text": "Developed small projects with virtual backends such as a Job Dashboard and a Lead Management CRM. See details on GitHub: https://github.com/ruler45",
+    "images": []
+  },
+  {
+    "title": "November 2025 : NITSHACKS 8.0",
+    "text": "Convenor for NITSHACKS 8.0, responsible for organizing events, schedules, and managing teams.",
+    "images": ["/gif/nitshacks.png"]
+  },
+  {
+    "title": "August 2025 : General Secretary (Technical)",
+    "text": "Elected as the General Secretary Technical of NIT Silchar; organised technical activities and represented student technical interests.",
+    "images": []
+  },
+  {
+    "title": "June 2025 : Research Internship",
+    "text": "Worked on an ML research internship focused on optimizing electrodeposition process parameters.",
+    "images": []
+  },
+  {
+    "title": "Early 2025 : Web Teams",
+    "text": "Led web teams for Oikyotaan and Incand, the college annual fests, handling web development and deployment.",
+    "images": []
+  },
+  {
+    "title": "Late 2024 : NITS-HACKS 7.0",
+    "text": "Carried out responsibilities as the Software Track Head and Event Management Moderator at NITS-HACKS 7.0 and successfully conducted various events under its banner.",
+    "images": [
+      "/gif/nitshacks.png",
+      "/gif/nitshacks1.jpg",
+      "/gif/nitshacks2.jpg"
+    ]
+  },
+  {
+    "title": "Mid 2024 : E-cell & GDGC",
+    "text": "Appointed as Technical Head at E-cell, NIT Silchar and Cloud Moderator at GDGC NIT Silchar — contributed to web and cloud initiatives.",
+    "images": [
+      "https://res.cloudinary.com/dp92qug2f/image/upload/v1678341163/Ecell%20website/ecell-logo-bw2_sayvqp.webp"
+    ]
+  },
+  {
+    "title": "Early 2024 : Incand'24",
+    "text": "Joined Incand'24's Technical team, led the team for the event website and helped organise Costopia — a cosplay event at the cultural fest.",
+    "images": ["/images/incand24.png", "/images/incand24-1.jpg"]
+  },
+  {
+    "title": "Early 2023 : Clubs & Volunteering",
+    "text": "Hopped onto multiple clubs and societies at NIT Silchar to explore hobbies and learn new skills. Joined Dramatic's Club, volunteered at Gyansagar, and contributed to Incand'23 teams.",
+    "images": []
+  },
+  {
+    "title": "2022 : Started",
+    "text": "Started at the National Institute of Technology Silchar and began learning the fundamentals of software development and teamwork.",
+    "images": ["/images/nits1.png"]
+  }
+]

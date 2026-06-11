@@ -23,7 +23,7 @@ const links = [
     href: "#projects",
   },
   {
-    name: "Work with me",
+    name: "Hire me",
     href: "#work",
   },
 ];
